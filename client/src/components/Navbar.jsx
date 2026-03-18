@@ -21,12 +21,12 @@ const Navbar = () => {
         <div className="flex items-center space-x-6">
           <span className="flex items-center space-x-2">
             <FiPhone size={14} />
-            <span>+91 98765 43210</span>
+            <span>+91 8679358117</span>
           </span>
 
           <span className="flex items-center space-x-2">
             <FiMail size={14} />
-            <span>info@asclevialifesciences.com</span>
+            <span>Info@asclevialife.com</span>
           </span>
         </div>
 

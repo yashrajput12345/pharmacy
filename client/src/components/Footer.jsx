@@ -95,8 +95,11 @@ const Footer = () => {
             <div className="flex items-start space-x-3">
               <FiMapPin className="text-[#0055aa] text-lg mt-1" />
               <p>
-                Your Office Address Here,<br />
-                City, State, Country - PIN
+                 Asclevia Lifesciences Pvt. Ltd <br />
+                 D-9, Ground Floor, Sec. 3,<br />
+                Gautam Budh Nagar 
+                Noida – 201301, <br />
+                Uttar Pradesh, India 
               </p>
             </div>
 
@@ -107,7 +110,7 @@ const Footer = () => {
                 href="tel:+919876543210"
                 className="hover:text-white transition"
               >
-                +91 98765 43210
+                +91 8679358117
               </a>
             </div>
 
@@ -115,10 +118,10 @@ const Footer = () => {
             <div className="flex items-center space-x-3">
               <FiMail className="text-[#0055aa] text-lg" />
               <a
-                href="mailto:info@asclevialifesciences.com"
+                href="mailto:Info@asclevialife.com"
                 className="hover:text-white transition"
               >
-                info@asclevialifesciences.com
+                Info@asclevialife.com
               </a>
             </div>
 
