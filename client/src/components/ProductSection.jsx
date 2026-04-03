@@ -7,28 +7,28 @@ const products = [
     title: "HPV Screening Kit",
     description:
       "Our HPV diagnostic solution is designed for early detection and effective screening, helping in the management of cervical health risks.",
-    image: "/tablet.jpg",
+    image: "/HVP.png",
   },
   {
     icon: <FaBriefcaseMedical />,
     title: "Infection Management Kits",
     description:
       "Specially curated kits aimed at supporting patients during infection recovery with clinically relevant components.",
-    image: "/capsule.jpg",
+    image: "/IMK.png",
   },
   {
     icon: <FaFemale />,
     title: "Women’s Health Solutions",
     description:
       "Focused products addressing urinary tract health, nutritional support, and preventive care for women.",
-    image: "/syrup.jpg",
+    image: "/WHS.png",
   },
   {
     icon: <FaHeartbeat />,
     title: "Post-Care & Recovery Kits",
     description:
       "Integrated healthcare kits designed for post-surgery and recovery support, ensuring better healing and patient comfort.",
-    image: "/supplement.webp",
+    image: "/PCR.png",
   },
 ];
 
@@ -60,8 +60,8 @@ const ProductSection = () => {
       className="relative bg-gradient-to-br from-[#f8fbff] to-[#eef4ff] py-24 scroll-mt-32 overflow-hidden"
     >
       {/* Background Blur */}
-      <div className="absolute -top-24 right-0 w-80 h-80 bg-blue-200 opacity-20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-300 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute -top-24 right-0 w-80 h-80 bg-[#1FA3A3]/10 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#1FA3A3]/20 opacity-20 rounded-full blur-3xl"></div>
 
       <div className="relative w-full px-8 lg:px-16">
 
@@ -73,12 +73,10 @@ const ProductSection = () => {
           viewport={{ once: false, amount: 0.2 }}
           className="text-center mb-16"
         >
-          <p className="text-xl font-semibold text-[#0055aa] tracking-widest mb-3">
-            OUR PRODUCTS
-          </p>
+          
 
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-4">
-            Our Products
+          <h2 className="text-3xl lg:text-3xl font-bold text-[#14234A] mb-4">
+            Our Pharmaceutical Products
           </h2>
 
           <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
@@ -101,7 +99,7 @@ const ProductSection = () => {
               className="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.03] transition-all duration-300 ease-out relative overflow-hidden"
             >
               {/* Top Accent */}
-              <div className="absolute top-0 left-0 w-full h-1 bg-[#0055aa] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+              <div className="absolute top-0 left-0 w-full h-1 bg-[#1FA3A3] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
 
               {/* Image */}
               <div className="mb-6 bg-[#f1f6ff] rounded-xl p-4 flex items-center justify-center">
@@ -113,12 +111,12 @@ const ProductSection = () => {
               </div>
 
               {/* Icon */}
-              <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-100 text-[#0055aa] text-lg mb-4 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
+              <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#1FA3A3]/10 text-[#1FA3A3] text-lg mb-4 transition duration-300 group-hover:bg-[#14234A] group-hover:text-white group-hover:scale-110">
                 {item.icon}
               </div>
 
               {/* Title */}
-              <h3 className="text-lg font-semibold text-[#0f172a] mb-2">
+              <h3 className="text-lg font-semibold text-[#14234A] mb-2">
                 {item.title}
               </h3>
 

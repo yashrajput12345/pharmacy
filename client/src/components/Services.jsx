@@ -34,11 +34,6 @@ const services = [
     title: "Regulatory & Compliance Support",
     desc: "We ensure all products meet regulatory standards with proper documentation, licensing, and quality assurance processes.",
   },
-  {
-    icon: <FaFlask />,
-    title: "Product Branding & Market Development",
-    desc: "We help build strong healthcare brands through strategic marketing, packaging, and positioning for better market acceptance.",
-  },
 ];
 
 const containerVariants = {
@@ -69,8 +64,8 @@ const ServicesSection = () => {
       className="relative py-24 bg-gradient-to-br from-[#f8fbff] to-[#eef4ff] scroll-mt-28 overflow-hidden"
     >
       {/* Background Blur Circles */}
-      <div className="absolute -top-20 -left-20 w-72 h-72 bg-blue-200 opacity-20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-300 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute -top-20 -left-20 w-72 h-72 bg-[#1FA3A3]/10 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#1FA3A3]/20 opacity-20 rounded-full blur-3xl"></div>
 
       <div className="relative w-full px-8 lg:px-16">
 
@@ -82,11 +77,9 @@ const ServicesSection = () => {
           viewport={{ once: false, amount: 0.2 }}
           className="text-center mb-16"
         >
-          <p className="text-xl font-semibold text-[#0055aa] tracking-widest mb-3">
-            OUR SERVICES
-          </p>
+          
 
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-4">
+          <h2 className="text-3xl lg:text-3xl font-bold text-[#14234A] mb-4">
             Our Pharmaceutical Services
           </h2>
 
@@ -110,15 +103,15 @@ const ServicesSection = () => {
               className="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-3 transition duration-300 relative overflow-hidden"
             >
               {/* Top Line */}
-              <div className="absolute top-0 left-0 w-full h-1 bg-[#0055aa] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+              <div className="absolute top-0 left-0 w-full h-1 bg-[#1FA3A3] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
 
               {/* Icon */}
-              <div className="w-14 h-14 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-xl text-xl mb-6 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
+              <div className="w-14 h-14 flex items-center justify-center bg-[#1FA3A3]/10 text-[#1FA3A3] rounded-xl text-xl mb-6 transition duration-300 group-hover:bg-[#14234A] group-hover:text-white group-hover:scale-110">
                 {service.icon}
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-semibold text-[#0f172a] mb-3">
+              <h3 className="text-xl font-semibold text-[#14234A] mb-3">
                 {service.title}
               </h3>
 

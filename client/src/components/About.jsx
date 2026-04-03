@@ -38,13 +38,13 @@ const AboutSection = () => {
           {/* ===== LEFT SIDE ===== */}
           <motion.div variants={itemVariants} className="flex flex-col">
 
-            <p className="text-xl font-semibold text-[#0055aa] tracking-widest mb-3">
+            <p className="text-xl font-semibold text-[#14234A] tracking-widest mb-3">
               WHO WE ARE
             </p>
 
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-4 leading-tight">
+            <h2 className="text-3xl lg:text-3xl font-bold text-[#14234A] mb-4 leading-tight">
               Transforming Healthcare with
-              <span className="block text-[#0055aa]">
+              <span className="block text-[#1FA3A3]">
                 Innovative Diagnostic & Pharmaceutical Solutions
               </span>
             </h2>
@@ -75,11 +75,11 @@ const AboutSection = () => {
               variants={itemVariants}
               className="group flex flex-1 items-start gap-4 bg-[#f8fafc] p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
             >
-              <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
+              <div className="w-10 h-10 flex items-center justify-center bg-[#1FA3A3]/10 text-[#1FA3A3] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#14234A] group-hover:text-white group-hover:scale-110">
                 <FaLightbulb />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-[#0f172a] mb-2">
+                <h3 className="text-lg font-semibold text-[#14234A] mb-2">
                   Our Mission
                 </h3>
                 <p className="text-gray-500 text-sm">
@@ -93,11 +93,11 @@ const AboutSection = () => {
               variants={itemVariants}
               className="group flex flex-1 items-start gap-4 bg-[#f8fafc] p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
             >
-              <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
+              <div className="w-10 h-10 flex items-center justify-center bg-[#1FA3A3]/10 text-[#1FA3A3] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#14234A] group-hover:text-white group-hover:scale-110">
                 <FaBullseye />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-[#0f172a] mb-2">
+                <h3 className="text-lg font-semibold text-[#14234A] mb-2">
                   Our Vision
                 </h3>
                 <p className="text-gray-500 text-sm">
@@ -106,16 +106,16 @@ const AboutSection = () => {
               </div>
             </motion.div>
 
-            {/* Strengths (NEW) */}
+            {/* Strengths */}
             <motion.div
               variants={itemVariants}
               className="group flex flex-1 items-start gap-4 bg-[#f8fafc] p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
             >
-              <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
+              <div className="w-10 h-10 flex items-center justify-center bg-[#1FA3A3]/10 text-[#1FA3A3] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#14234A] group-hover:text-white group-hover:scale-110">
                 <FaCheckCircle />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-[#0f172a] mb-2">
+                <h3 className="text-lg font-semibold text-[#14234A] mb-2">
                   Our Strengths
                 </h3>
                 <p className="text-gray-500 text-sm">

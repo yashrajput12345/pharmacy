@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="bg-[#0b1f3a] text-gray-300 pt-16 scroll-mt-32"
+      className="bg-[#14234A] text-gray-300 pt-16 scroll-mt-32"
     >
       {/* ===== MAIN FOOTER ===== */}
       <div className="w-full px-8 lg:px-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -23,9 +23,11 @@ const Footer = () => {
         {/* ===== Column 1 - Company Info ===== */}
         <div>
           <div className="flex items-center space-x-3 mb-6">
-            <div className="bg-[#0055aa] text-white px-3 py-2 rounded-lg font-bold">
-              AL
-            </div>
+             <img
+              src="/ASCLEVIA LOGO_page-0001.jpg"
+              alt="Asclevia Logo"
+              className="w-18 h-20 object-contain rounded-xl shadow-md"
+            />
             <h2 className="text-xl font-semibold text-white leading-tight">
               Asclevia Lifesciences <br />
               <span className="text-sm text-gray-400 font-normal">
@@ -47,7 +49,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href="#"
-                  className="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg hover:bg-[#0055aa] hover:scale-110 transition-all duration-300"
+                  className="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg hover:bg-[#1FA3A3] hover:scale-110 transition-all duration-300"
                 >
                   <Icon className="text-white text-sm" />
                 </a>
@@ -93,19 +95,19 @@ const Footer = () => {
 
             {/* Address */}
             <div className="flex items-start space-x-3">
-              <FiMapPin className="text-[#0055aa] text-lg mt-1" />
+              <FiMapPin className="text-[#1FA3A3] text-lg mt-1" />
               <p>
-                 Asclevia Lifesciences Pvt. Ltd <br />
-                 D-9, Ground Floor, Sec. 3,<br />
-                Gautam Budh Nagar 
+                Asclevia Lifesciences Pvt. Ltd <br />
+                D-9, Ground Floor, Sec. 3,<br />
+                Gautam Budh Nagar <br />
                 Noida – 201301, <br />
-                Uttar Pradesh, India 
+                Uttar Pradesh, India
               </p>
             </div>
 
             {/* Phone */}
             <div className="flex items-center space-x-3">
-              <FiPhone className="text-[#0055aa] text-lg" />
+              <FiPhone className="text-[#1FA3A3] text-lg" />
               <a
                 href="tel:+919876543210"
                 className="hover:text-white transition"
@@ -116,7 +118,7 @@ const Footer = () => {
 
             {/* Email */}
             <div className="flex items-center space-x-3">
-              <FiMail className="text-[#0055aa] text-lg" />
+              <FiMail className="text-[#1FA3A3] text-lg" />
               <a
                 href="mailto:Info@asclevialife.com"
                 className="hover:text-white transition"
@@ -135,9 +137,7 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} Asclevia Lifesciences Pvt. Ltd. All rights reserved.
           </p>
-          <p>
-            GMP Compliant · ISO Certified · WHO Guidelines
-          </p>
+          
         </div>
       </div>
     </footer>

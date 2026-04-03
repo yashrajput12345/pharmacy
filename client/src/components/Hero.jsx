@@ -10,14 +10,14 @@ const Hero = () => {
         <div>
 
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-blue-100 text-[#0055aa] px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#1FA3A3]/10 text-[#1FA3A3] px-4 py-2 rounded-full text-sm font-medium mb-6">
             🛡 Trusted Healthcare Partner
           </div>
 
           {/* Heading */}
-          <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-[#0f172a]">
+          <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-[#14234A]">
             Innovating for a  
-            <span className="block text-[#0055aa]">
+            <span className="block text-[#1FA3A3]">
               Healthier Tomorrow
             </span>
           </h1>
@@ -44,32 +44,46 @@ const Hero = () => {
           </div>
 
           {/* Buttons */}
-          <div className="mt-8 flex flex-wrap gap-4">
+        <div className="mt-8 flex flex-wrap gap-4">
 
-            <a
-              href="#contact"
-              className="bg-[#0055aa] text-white px-6 py-3 rounded-xl shadow-md hover:bg-[#003f80] transition duration-300"
-            >
-              Get a Consultation →
-            </a>
+  {/* Primary Button */}
+  <a
+    href="#contact"
+    className="bg-[#14234A] text-white px-6 py-3 rounded-xl shadow-md 
+    hover:bg-[#1FA3A3] hover:text-white 
+    transition duration-300"
+  >
+    Get a Consultation →
+  </a>
 
-            <a
-              href="#about"
-              className="border border-gray-300 text-[#0f172a] px-6 py-3 rounded-xl hover:bg-gray-100 transition duration-300"
-            >
-              Learn More About Us
-            </a>
-          </div>
+  {/* Secondary Button */}
+  <a
+    href="#about"
+    className="border border-gray-300 text-[#14234A] px-6 py-3 rounded-xl 
+    hover:bg-[#1FA3A3] hover:text-white 
+    transition duration-300"
+  >
+    Learn More About Us
+  </a>
+
+</div>
 
           {/* Stats */}
-          <div className="flex gap-12 mt-12 text-[#0055aa] font-bold text-2xl">
+          <div className="flex gap-12 mt-12 text-[#14234A] font-bold text-2xl">
 
-            <div>
-              24/7
-              <p className="text-sm text-gray-500 font-medium mt-1">
-                Support
-              </p>
+            <div className="flex items-center gap-3">
+              <div className="bg-[#1FA3A3]/10 text-[#1FA3A3] p-2 rounded-lg">
+                💬
+              </div>
+
+              <div>
+                24/7
+                <p className="text-sm text-gray-500 font-medium mt-1">
+                  Support
+                </p>
+              </div>
             </div>
+
           </div>
         </div>
 
@@ -81,8 +95,6 @@ const Hero = () => {
             alt="Pharmacy"
             className="rounded-2xl shadow-xl"
           />
-
-        
 
         </div>
       </div>

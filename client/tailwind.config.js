@@ -3,10 +3,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#0055aa",
-        accent: "#20c997",
+        primary: "#14234A", // midnight blue
+        accent: "#1FA3A3",  // teal
       },
     },
   },
   plugins: [],
-}
+};

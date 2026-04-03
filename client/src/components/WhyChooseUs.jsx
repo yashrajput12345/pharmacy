@@ -55,8 +55,8 @@ const WhyChooseUs = () => {
     <section className="relative bg-gradient-to-br from-[#f8fbff] to-[#eef4ff] py-24 overflow-hidden scroll-mt-28">
 
       {/* Background Blur Effects */}
-      <div className="absolute -top-20 left-0 w-80 h-80 bg-blue-200 opacity-20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-300 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute -top-20 left-0 w-80 h-80 bg-[#1FA3A3]/10 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#1FA3A3]/20 opacity-20 rounded-full blur-3xl"></div>
 
       <div className="relative w-full px-8 lg:px-16 grid lg:grid-cols-2 gap-16 items-start">
 
@@ -68,11 +68,11 @@ const WhyChooseUs = () => {
           viewport={{ once: false, amount: 0.2 }}
           className="flex flex-col"
         >
-          <p className="text-xl font-semibold text-[#0055aa] tracking-widest mb-4">
+          <p className="text-xl font-semibold text-[#14234A] tracking-widest mb-4">
             WHY CHOOSE US
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#0f172a] leading-tight mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-[#14234A] leading-tight mb-6">
             Why Choose Asclevia Healthcare?
           </h2>
 
@@ -105,15 +105,15 @@ const WhyChooseUs = () => {
               className="group bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.03] transition-all duration-300 ease-out relative overflow-hidden cursor-pointer"
             >
               {/* Top Accent */}
-              <div className="absolute top-0 left-0 w-full h-1 bg-[#0055aa] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+              <div className="absolute top-0 left-0 w-full h-1 bg-[#1FA3A3] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
 
               {/* Icon */}
-              <div className="w-12 h-12 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-xl mb-6 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#1FA3A3]/10 text-[#1FA3A3] rounded-xl mb-6 transition duration-300 group-hover:bg-[#14234A] group-hover:text-white group-hover:scale-110">
                 {item.icon}
               </div>
 
               {/* Title */}
-              <h3 className="font-semibold text-lg mb-3 text-[#0f172a]">
+              <h3 className="font-semibold text-lg mb-3 text-[#14234A]">
                 {item.title}
               </h3>
 
