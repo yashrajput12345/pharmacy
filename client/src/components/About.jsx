@@ -1,4 +1,4 @@
-import { FaBullseye, FaLightbulb, FaHeart } from "react-icons/fa";
+import { FaBullseye, FaLightbulb, FaCheckCircle } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -24,10 +24,7 @@ const itemVariants = {
 
 const AboutSection = () => {
   return (
-    <section
-      id="about"
-      className="bg-white py-16 scroll-mt-28"
-    >
+    <section id="about" className="bg-white py-16 scroll-mt-28">
       <div className="w-full px-8 lg:px-16">
 
         <motion.div
@@ -39,25 +36,25 @@ const AboutSection = () => {
         >
 
           {/* ===== LEFT SIDE ===== */}
-          <motion.div
-            variants={itemVariants}
-            className="flex flex-col"
-          >
+          <motion.div variants={itemVariants} className="flex flex-col">
+
             <p className="text-xl font-semibold text-[#0055aa] tracking-widest mb-3">
               WHO WE ARE
             </p>
 
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-4 leading-tight">
-              Driven by Purpose,
+              Transforming Healthcare with
               <span className="block text-[#0055aa]">
-                Guided by Science
+                Innovative Diagnostic & Pharmaceutical Solutions
               </span>
             </h2>
 
+            <p className="text-gray-500 mb-4 max-w-lg">
+              At Asclevia Lifesciences, we are committed to delivering advanced, reliable, and accessible healthcare solutions across India. From diagnostic innovations to pharmaceutical distribution, we aim to bridge the gap between quality healthcare products and patient needs.
+            </p>
+
             <p className="text-gray-500 mb-6 max-w-lg">
-              Asclevia Lifesciences Pvt. Ltd. delivers high-quality
-              pharmaceutical solutions through innovation,
-              scientific excellence, and ethical healthcare practices.
+              Our focus lies in bringing cutting-edge diagnostic kits, including HPV screening solutions, along with integrated healthcare products that support prevention, early detection, and recovery.
             </p>
 
             <img
@@ -73,25 +70,6 @@ const AboutSection = () => {
             className="flex flex-col gap-6 h-full"
           >
 
-            {/* Vision */}
-            <motion.div
-              variants={itemVariants}
-              className="group flex flex-1 items-start gap-4 bg-[#f8fafc] p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
-            >
-              <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
-                <FaBullseye />
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold text-[#0f172a] mb-2">
-                  Our Vision
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  To become a globally trusted pharmaceutical brand.
-                  We aim to advance healthcare accessibility through innovation and science.
-                </p>
-              </div>
-            </motion.div>
-
             {/* Mission */}
             <motion.div
               variants={itemVariants}
@@ -105,27 +83,43 @@ const AboutSection = () => {
                   Our Mission
                 </h3>
                 <p className="text-gray-500 text-sm">
-                  To develop safe, effective, and affordable medicines.
-                  We prioritize ethical research and patient-centered healthcare.
+                  To make high-quality healthcare solutions accessible, affordable, and impactful across every corner of India.
                 </p>
               </div>
             </motion.div>
 
-            {/* Values */}
+            {/* Vision */}
             <motion.div
               variants={itemVariants}
               className="group flex flex-1 items-start gap-4 bg-[#f8fafc] p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
             >
               <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
-                <FaHeart />
+                <FaBullseye />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-[#0f172a] mb-2">
-                  Our Values
+                  Our Vision
                 </h3>
                 <p className="text-gray-500 text-sm">
-                  Integrity, compassion, and scientific excellence guide us.
-                  We are committed to improving lives responsibly and sustainably.
+                  To become a leading healthcare brand known for innovation, trust, and excellence in diagnostics and pharmaceuticals.
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Strengths (NEW) */}
+            <motion.div
+              variants={itemVariants}
+              className="group flex flex-1 items-start gap-4 bg-[#f8fafc] p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer"
+            >
+              <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-[#0055aa] rounded-lg shrink-0 transition duration-300 group-hover:bg-[#0055aa] group-hover:text-white group-hover:scale-110">
+                <FaCheckCircle />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-[#0f172a] mb-2">
+                  Our Strengths
+                </h3>
+                <p className="text-gray-500 text-sm">
+                  Advanced diagnostic solutions, strong distribution network, strategic partnerships, and regulatory-compliant operations.
                 </p>
               </div>
             </motion.div>

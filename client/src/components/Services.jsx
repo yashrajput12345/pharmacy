@@ -10,34 +10,34 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    icon: <FaFlask />,
-    title: "Drug Development",
-    desc: "Innovative research and formulation of safe, effective pharmaceutical products.",
+    icon: <FaMicroscope />,
+    title: "Diagnostic Kits & IVD Solutions",
+    desc: "We specialize in providing high-quality diagnostic kits, including HPV screening and rapid detection solutions designed for accuracy and reliability.",
   },
   {
     icon: <FaIndustry />,
-    title: "Manufacturing",
-    desc: "State-of-the-art production facilities ensuring global quality standards.",
+    title: "Contract Manufacturing",
+    desc: "We collaborate with certified manufacturing partners to develop pharmaceutical and diagnostic products under our brand with scalable production.",
   },
   {
     icon: <FaShippingFast />,
-    title: "Distribution",
-    desc: "Efficient supply chain solutions delivering medicines worldwide.",
+    title: "Co-Marketing & Strategic Partnerships",
+    desc: "We partner with leading healthcare companies to expand market reach and improve product accessibility through strong distribution networks.",
   },
   {
     icon: <FaClipboardCheck />,
-    title: "Regulatory Affairs",
-    desc: "Compliance with FDA, WHO & international pharmaceutical regulations.",
-  },
-  {
-    icon: <FaMicroscope />,
-    title: "Clinical Research",
-    desc: "Advanced clinical trials ensuring safety and product reliability.",
+    title: "Pharmaceutical Distribution",
+    desc: "Efficient supply chain ensuring timely delivery of medicines, diagnostic kits, and healthcare products to hospitals and pharmacies.",
   },
   {
     icon: <FaShieldAlt />,
-    title: "Quality Assurance",
-    desc: "Strict quality control processes guaranteeing excellence in every batch.",
+    title: "Regulatory & Compliance Support",
+    desc: "We ensure all products meet regulatory standards with proper documentation, licensing, and quality assurance processes.",
+  },
+  {
+    icon: <FaFlask />,
+    title: "Product Branding & Market Development",
+    desc: "We help build strong healthcare brands through strategic marketing, packaging, and positioning for better market acceptance.",
   },
 ];
 
@@ -57,7 +57,7 @@ const cardVariants = {
     y: 0,
     transition: {
       duration: 0.7,
-      ease: [0.22, 1, 0.36, 1], // smoother cubic-bezier feel
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
@@ -83,16 +83,15 @@ const ServicesSection = () => {
           className="text-center mb-16"
         >
           <p className="text-xl font-semibold text-[#0055aa] tracking-widest mb-3">
-            WHAT WE DO
+            OUR SERVICES
           </p>
 
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-4">
             Our Pharmaceutical Services
           </h2>
 
-          <p className="text-gray-500 max-w-2xl mx-auto">
-            Delivering excellence across research, manufacturing, and global
-            healthcare solutions with innovation and integrity.
+          <p className="text-gray-500 max-w-3xl mx-auto">
+            At Asclevia Lifesciences, we deliver comprehensive pharmaceutical and diagnostic solutions designed to enhance patient outcomes and healthcare accessibility across India. Our services are built on quality, compliance, and innovation.
           </p>
         </motion.div>
 
@@ -110,7 +109,7 @@ const ServicesSection = () => {
               variants={cardVariants}
               className="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-3 transition duration-300 relative overflow-hidden"
             >
-              {/* Animated Top Line */}
+              {/* Top Line */}
               <div className="absolute top-0 left-0 w-full h-1 bg-[#0055aa] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
 
               {/* Icon */}

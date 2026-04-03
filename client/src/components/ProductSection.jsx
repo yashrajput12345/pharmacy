@@ -1,33 +1,33 @@
-import { FaCapsules, FaTablets, FaFlask, FaLeaf } from "react-icons/fa";
+import { FaMicroscope, FaBriefcaseMedical, FaFemale, FaHeartbeat } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const products = [
   {
-    icon: <FaTablets />,
-    title: "Tablets",
+    icon: <FaMicroscope />,
+    title: "HPV Screening Kit",
     description:
-      "General medicine, orthopaedic, gastro & multivitamin formulations.",
+      "Our HPV diagnostic solution is designed for early detection and effective screening, helping in the management of cervical health risks.",
     image: "/tablet.jpg",
   },
   {
-    icon: <FaCapsules />,
-    title: "Capsules",
+    icon: <FaBriefcaseMedical />,
+    title: "Infection Management Kits",
     description:
-      "Softgel, nutraceutical and advanced specialty products.",
+      "Specially curated kits aimed at supporting patients during infection recovery with clinically relevant components.",
     image: "/capsule.jpg",
   },
   {
-    icon: <FaFlask />,
-    title: "Syrups & Drops",
+    icon: <FaFemale />,
+    title: "Women’s Health Solutions",
     description:
-      "Pediatric, iron, calcium and liver care solutions.",
+      "Focused products addressing urinary tract health, nutritional support, and preventive care for women.",
     image: "/syrup.jpg",
   },
   {
-    icon: <FaLeaf />,
-    title: "Health Supplements",
+    icon: <FaHeartbeat />,
+    title: "Post-Care & Recovery Kits",
     description:
-      "Gummies, proteins and wellness product range.",
+      "Integrated healthcare kits designed for post-surgery and recovery support, ensuring better healing and patient comfort.",
     image: "/supplement.webp",
   },
 ];
@@ -78,12 +78,11 @@ const ProductSection = () => {
           </p>
 
           <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-4">
-            Product Portfolio
+            Our Products
           </h2>
 
           <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
-            Our diversified pharmaceutical product range is designed to meet
-            global healthcare standards with quality and innovation.
+            Our product portfolio focuses on innovative diagnostic and healthcare solutions designed to improve patient outcomes and support modern medical needs.
           </p>
         </motion.div>
 
@@ -101,10 +100,10 @@ const ProductSection = () => {
               variants={cardVariants}
               className="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.03] transition-all duration-300 ease-out relative overflow-hidden"
             >
-              {/* Blue Accent Strip */}
+              {/* Top Accent */}
               <div className="absolute top-0 left-0 w-full h-1 bg-[#0055aa] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
 
-              {/* Product Image Container */}
+              {/* Image */}
               <div className="mb-6 bg-[#f1f6ff] rounded-xl p-4 flex items-center justify-center">
                 <img
                   src={item.image}

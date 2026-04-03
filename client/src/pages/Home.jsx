@@ -16,7 +16,6 @@ const Home = () => {
       <Services />
       <ProductSection />
       <WhyChooseUs />
-      <Certifications />
       <Footer />
     </div>
   );

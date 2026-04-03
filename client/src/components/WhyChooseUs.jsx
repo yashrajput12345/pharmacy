@@ -2,30 +2,30 @@ import {
   FiShield,
   FiAward,
   FiHeart,
-  FiDollarSign,
+  FiTruck,
 } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const features = [
   {
-    icon: <FiShield size={22} />,
-    title: "Licensed Professionals",
-    desc: "Our team consists of certified pharmaceutical experts committed to delivering safe and compliant healthcare solutions.",
+    icon: <FiAward size={22} />,
+    title: "Quality-Driven Approach",
+    desc: "We prioritize consistent quality in every product through strict standards and continuous improvement.",
   },
   {
-    icon: <FiAward size={22} />,
-    title: "Quality Assured",
-    desc: "We follow strict quality control protocols and international regulatory standards for every product we deliver.",
+    icon: <FiShield size={22} />,
+    title: "Regulatory Compliance Focus",
+    desc: "All our products and processes strictly follow pharmaceutical and medical regulatory guidelines.",
+  },
+  {
+    icon: <FiTruck size={22} />,
+    title: "Pan-India Distribution Vision",
+    desc: "We aim to build a strong nationwide distribution network ensuring accessibility across India.",
   },
   {
     icon: <FiHeart size={22} />,
-    title: "Patient-Centered Approach",
-    desc: "We prioritize patient wellbeing with ethical practices and innovative healthcare solutions.",
-  },
-  {
-    icon: <FiDollarSign size={22} />,
-    title: "Competitive & Transparent Pricing",
-    desc: "We offer cost-effective pharmaceutical solutions without compromising on quality or safety.",
+    title: "Innovation-Led Portfolio",
+    desc: "Our product range is driven by innovation, focusing on modern healthcare needs and solutions.",
   },
 ];
 
@@ -73,23 +73,20 @@ const WhyChooseUs = () => {
           </p>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-[#0f172a] leading-tight mb-6">
-            Your Trusted Pharmaceutical Partner
+            Why Choose Asclevia Healthcare?
           </h2>
 
           <p className="text-gray-600 text-lg leading-relaxed max-w-lg mb-8">
-            Asclevia Lifesciences Pvt. Ltd. is committed to delivering
-            innovative, safe, and high-quality pharmaceutical solutions
-            backed by scientific excellence and ethical standards.
+            We are committed to delivering reliable, affordable, and innovative healthcare solutions that make a difference.
           </p>
 
-          {/* IMAGE BELOW TEXT */}
+          {/* IMAGE */}
           <div className="relative rounded-2xl overflow-hidden shadow-xl group">
             <img
               src="/trust.png"
               alt="Pharmaceutical Research"
               className="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
             />
-
           </div>
         </motion.div>
 
@@ -107,7 +104,7 @@ const WhyChooseUs = () => {
               variants={cardVariants}
               className="group bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.03] transition-all duration-300 ease-out relative overflow-hidden cursor-pointer"
             >
-              {/* Blue Accent Strip */}
+              {/* Top Accent */}
               <div className="absolute top-0 left-0 w-full h-1 bg-[#0055aa] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
 
               {/* Icon */}

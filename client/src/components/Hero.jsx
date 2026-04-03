@@ -16,16 +16,32 @@ const Hero = () => {
 
           {/* Heading */}
           <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-[#0f172a]">
-            Your Health,
+            Innovating for a  
             <span className="block text-[#0055aa]">
-              Our Priority
+              Healthier Tomorrow
             </span>
           </h1>
 
           {/* Description */}
-          <p className="mt-6 text-lg text-[#64748b] leading-relaxed max-w-xl">
-           Asclevia Lifesciences Pvt. Ltd. is a fast-growing pharmaceutical and nutraceutical company dedicated to manufacturing high-quality, safe, and effective healthcare products. With strong ethical practices, advanced manufacturing standards, and customer-centric values, we serve doctors, distributors, and patients across India.
-          </p>
+          <div className="mt-6 text-lg text-[#64748b] leading-relaxed max-w-xl space-y-4">
+
+            <p>
+              Asclevia Lifesciences is a fast-growing healthcare company focused on delivering high-quality pharmaceutical and diagnostic solutions. With a strong emphasis on innovation and compliance, we collaborate with leading manufacturing partners to bring effective healthcare products to the market.
+            </p>
+
+            <p>
+              Our expertise lies in diagnostic kits, infection management solutions, and post-care healthcare products designed to improve patient outcomes.
+            </p>
+
+            <p>
+              We believe in building long-term partnerships with healthcare providers, distributors, and institutions to ensure seamless product availability and trust.
+            </p>
+
+            <p>
+              With a vision to expand across India, Asclevia Lifesciences is dedicated to redefining healthcare delivery through quality, reliability, and innovation.
+            </p>
+
+          </div>
 
           {/* Buttons */}
           <div className="mt-8 flex flex-wrap gap-4">
@@ -49,13 +65,6 @@ const Hero = () => {
           <div className="flex gap-12 mt-12 text-[#0055aa] font-bold text-2xl">
 
             <div>
-              50K+
-              <p className="text-sm text-gray-500 font-medium mt-1">
-                Happy Clients
-              </p>
-            </div>
-
-            <div>
               24/7
               <p className="text-sm text-gray-500 font-medium mt-1">
                 Support
@@ -73,17 +82,7 @@ const Hero = () => {
             className="rounded-2xl shadow-xl"
           />
 
-          {/* Floating Card */}
-          <div className="absolute bottom-6 left-6 bg-white rounded-xl shadow-lg px-6 py-4 flex items-center gap-4">
-            <div className="bg-green-100 text-green-600 p-3 rounded-full">
-              ✔
-            </div>
-            <div>
-              <p className="font-semibold text-[#0f172a]">
-                Licensed & Certified
-              </p>
-            </div>
-          </div>
+        
 
         </div>
       </div>
