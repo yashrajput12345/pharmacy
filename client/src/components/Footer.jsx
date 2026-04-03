@@ -22,19 +22,28 @@ const Footer = () => {
 
         {/* ===== Column 1 - Company Info ===== */}
         <div>
-          <div className="flex items-center space-x-3 mb-6">
-             <img
-              src="/ASCLEVIA LOGO_page-0001.jpg"
-              alt="Asclevia Logo"
-              className="w-18 h-20 object-contain rounded-xl shadow-md"
-            />
-            <h2 className="text-xl font-semibold text-white leading-tight">
-              Asclevia Lifesciences <br />
-              <span className="text-sm text-gray-400 font-normal">
-                Pvt. Ltd.
-              </span>
-            </h2>
-          </div>
+         <div className="flex items-center space-x-3 mb-6">
+  <img
+    src="/ASCLEVIA LOGO_page-0001.jpg"
+    alt="Asclevia Logo"
+    className="w-18 h-20 object-contain rounded-xl shadow-md"
+  />
+
+  <div className="leading-tight">
+    <h2 className="text-xl font-semibold text-white">
+      Asclevia Lifesciences <br />
+      <span className="text-sm text-gray-400 font-normal">
+        Pvt. Ltd.
+      </span>
+    </h2>
+
+    {/* Tagline */}
+    <p className="text-xs text-gray-400 mt-1 font-medium">
+      Innovating for a <br />
+      healthier tomorrow
+    </p>
+  </div>
+</div>
 
           <p className="text-gray-400 leading-relaxed text-sm">
             Delivering innovative and high-quality pharmaceutical
