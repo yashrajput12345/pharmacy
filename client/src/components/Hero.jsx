@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="mt-6 text-lg text-[#64748b] leading-relaxed max-w-xl space-y-4">
 
             <p>
-              Asclevia Lifesciences is a fast-growing healthcare company focused on delivering high-quality pharmaceutical and diagnostic solutions. With a strong emphasis on innovation and compliance, we collaborate with leading manufacturing partners to bring effective healthcare products to the market.
+              Asclevia Lifesciences is a fast-growing healthcare company focused on delivering high-quality pharmaceutical and diagnostic solutions. With a strong emphasis on innovation and compliance, We committed to bring effective healthcare products to the market.
             </p>
 
             <p>
@@ -34,11 +34,11 @@ const Hero = () => {
             </p>
 
             <p>
-              We believe in building long-term partnerships with healthcare providers, distributors, and institutions to ensure seamless product availability and trust.
+             We believe in building long term trust and work with distributors and institutions to ensure seamless product availability and trust.
             </p>
 
             <p>
-              With a vision to expand across India, Asclevia Lifesciences is dedicated to redefining healthcare delivery through quality, reliability, and innovation.
+              With a vision to expand across globe, Asclevia Lifesciences is dedicated to redefining healthcare delivery through quality, reliability, and innovation.
             </p>
 
           </div>

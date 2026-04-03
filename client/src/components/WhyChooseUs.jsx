@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
           </p>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-[#14234A] leading-tight mb-6">
-            Why Choose Asclevia Healthcare?
+            Why Choose Asclevia Lifesciences?
           </h2>
 
           <p className="text-gray-600 text-lg leading-relaxed max-w-lg mb-8">
